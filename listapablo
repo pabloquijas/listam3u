@@ -458,7 +458,7 @@ https://streamer1.nexgen.bz/MTV/index.m3u8
 https://streamer1.nexgen.bz/MTV/index.m3u8
 
 #EXTINF:-1 tvg-id="MTVLive.us" tvg-name="MTV Live" group-title="Música",MTV Live
-https://fl2.moveonjoy.com/MTV_LIVE/index.m3u8
+:contentReference[oaicite:3]{index=3}
 
 #EXTINF:-1 tvg-id="StarChannelCentralAmerica.us" group-title="TV ABIERTA", STAR CHANNEL CENTRAL AMERICA
 https://streamer1.nexgen.bz/STAR/index.m3u8
@@ -712,11 +712,13 @@ https://chiquilines-plex.amagi.tv:443/Chiquilines-plex/master_6.m3u8
 EXTINF:0,tvg-logo="https://www.savoiabenincasa.gov.it/wp-content/uploads/2016/10/Sport.jpg" group-title="DEPORTES",---DEPORTES---
 
 
-#EXTINF:-1,  tvg-name="TUDN"  tvg-logo="https://i.postimg.cc/FztVqxQJ/tudnmx.png" group-title="DEPORTES",TUDN
-http://45.68.35.218:4001/play/a01u/index.m3u8
-#EXTINF:-1,  tvg-name="TUDN"  tvg-logo="https://i.postimg.cc/FztVqxQJ/tudnmx.png" group-title="DEPORTES",TUDN O2 
-http://cord-cutter.net:8080/Rme2Fg/183926/11885
+
 #EXTM3U
+#EXTINF:-1 tvg-id="TUDN.mx" tvg-name="TUDN México" group-title="Deportes",TUDN México
+:contentReference[oaicite:1]{index=1}
+
+#EXTINF:-1 tvg-id="TUDN.us" tvg-name="TUDN USA" group-title="Deportes",TUDN USA
+:contentReference[oaicite:2]{index=2}
 
 
 
