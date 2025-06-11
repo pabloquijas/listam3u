@@ -457,8 +457,8 @@ https://streamer1.nexgen.bz/MTV/index.m3u8
 #EXTINF:-1 group-title="TV ABIERTA", MTV
 https://streamer1.nexgen.bz/MTV/index.m3u8
 
-#EXTINF:-1 tvg-id="MTVLive.us" tvg-name="MTV Live" group-title="Música",MTV Live
-:contentReference[oaicite:3]{index=3}
+#EXTINF:-1 tvg-name="MTV" group-title="Música", MTV
+https://streamer1.nexgen.bz/MTV/index.m3u8
 
 #EXTINF:-1 tvg-id="StarChannelCentralAmerica.us" group-title="TV ABIERTA", STAR CHANNEL CENTRAL AMERICA
 https://streamer1.nexgen.bz/STAR/index.m3u8
